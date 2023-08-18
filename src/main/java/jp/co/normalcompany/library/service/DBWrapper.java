@@ -18,7 +18,8 @@ public class DBWrapper {
         this.personRepository = personRepository;
         this.houseRepository = houseRepository;
     }
-    public List<Person> listPerson(){
+
+    public List<Person> listPerson() {
         return personRepository.findAll();
     }
 
