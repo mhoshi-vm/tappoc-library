@@ -1,4 +1,4 @@
-package co.jp.supercompany.library.entity;
+package jp.co.normalcompany.library.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,8 +1,8 @@
-package co.jp.supercompany.library.service;
+package jp.co.normalcompany.library.service;
 
-import co.jp.supercompany.library.entity.Person;
-import co.jp.supercompany.library.repository.HouseRepository;
-import co.jp.supercompany.library.repository.PersonRepository;
+import jp.co.normalcompany.library.entity.Person;
+import jp.co.normalcompany.library.repository.HouseRepository;
+import jp.co.normalcompany.library.repository.PersonRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

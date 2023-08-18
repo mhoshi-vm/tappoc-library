@@ -1,6 +1,6 @@
-package co.jp.supercompany.library.repository;
+package jp.co.normalcompany.library.repository;
 
-import co.jp.supercompany.library.entity.House;
+import jp.co.normalcompany.library.entity.House;
 import org.springframework.data.repository.ListCrudRepository;
 import org.springframework.stereotype.Repository;
 

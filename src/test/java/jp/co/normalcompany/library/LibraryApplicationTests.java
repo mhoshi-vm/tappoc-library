@@ -1,4 +1,4 @@
-package co.jp.supercompany.library;
+package jp.co.normalcompany.library;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

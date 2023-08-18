@@ -1,6 +1,6 @@
-package co.jp.supercompany.library;
+package jp.co.normalcompany.library;
 
-import co.jp.supercompany.library.service.DBWrapper;
+import jp.co.normalcompany.library.service.DBWrapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
