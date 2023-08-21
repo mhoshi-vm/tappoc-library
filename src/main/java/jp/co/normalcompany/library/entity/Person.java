@@ -27,4 +27,20 @@ public class Person {
                 ", address='" + house.address + '\'' +
                 '}';
     }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return LastName;
+    }
+
+    public House getHouse() {
+        return house;
+    }
 }
