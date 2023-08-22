@@ -4,6 +4,6 @@ engine:
       exclude: [ "src/main/resources/**", "mvnw*", ".mvn/**" ]
       chain:
         - type: RewritePath
-          regex: src/main/java/(.*)
+          regex: (.*)
           rewriteTo: "'library/' + #g0"
 
