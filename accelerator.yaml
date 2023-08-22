@@ -1,4 +1,5 @@
 accelerator:
+  name: library-1.0.0
   displayName: library
   description: library for poc
   tags:
