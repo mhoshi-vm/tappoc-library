@@ -11,10 +11,6 @@ public class House {
 
     String address;
 
-    public Integer getId() {
-        return id;
-    }
-
     public String getAddress() {
         return address;
     }
