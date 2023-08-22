@@ -1,3 +1,12 @@
+accelerator:
+  displayName: library
+  description: library for poc
+  tags:
+    - java
+    - spring
+    - cloud
+    - poc
+
 engine:
   merge:
     - include: [ "**" ]
