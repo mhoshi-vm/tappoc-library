@@ -7,5 +7,6 @@ CREATE TABLE IF NOT EXISTS person (
 
 CREATE TABLE IF NOT EXISTS house (
     id INTEGER NOT NULL PRIMARY KEY,
+    residency TEXT,
     address TEXT
 )

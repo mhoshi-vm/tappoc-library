@@ -11,11 +11,17 @@ public class House {
 
     String address;
 
+    String residency;
+
     public Integer getId() {
         return id;
     }
 
     public String getAddress() {
         return address;
+    }
+
+    public String getResidency() {
+        return residency;
     }
 }
