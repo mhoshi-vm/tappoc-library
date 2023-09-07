@@ -1,0 +1,9 @@
+engine:
+  merge:
+    - include: [ "**" ]
+      exclude: [ "src/main/resources/**", "mvnw*", ".mvn/**" ]
+      chain:
+        - type: RewritePath
+          regex: src/main/java/(.*)
+          rewriteTo: "'library/' + #g0"
+

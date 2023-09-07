@@ -10,7 +10,7 @@
     </parent>
     <groupId>jp.co.normalcompany</groupId>
     <artifactId>library</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <name>library</name>
     <description>library</description>
     <properties>
@@ -63,14 +63,5 @@
             <version>4.6</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

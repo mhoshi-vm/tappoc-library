@@ -10,4 +10,12 @@ public class House {
     Integer id;
 
     String address;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }
