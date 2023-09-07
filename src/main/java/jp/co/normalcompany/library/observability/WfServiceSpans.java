@@ -12,9 +12,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import java.io.StringReader;
 
+@Configuration
 public class WfServiceSpans {
 
     public final String dbType;
@@ -39,6 +41,7 @@ public class WfServiceSpans {
                           @Value("${app.name}") String appName,
                           @Value("${inboundExternalService.serviceType:LB}") String inboundServiceType,
                           @Value("${social.origin:Social}") String socialOrigin) {
+
         this.dbType = dbType;
         this.dbInstance = dbInstance;
         this.appName = appName;
